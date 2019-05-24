@@ -102,6 +102,15 @@ figure {
     -moz-border-radius: 50%;
     -ms-border-radius: 50%;
     border-radius: 50%; }
+  #colorlib-aside .logo-img {
+      width: 220px;
+      height: 220px;
+      margin: 0 auto;
+      margin-bottom: 30px;
+      -webkit-border-radius: 0%;
+      -moz-border-radius: 0%;
+      -ms-border-radius: 0%;
+      background-size: contain;}
   #colorlib-aside .position {
     display: block;
     margin-bottom: 2em;
@@ -402,6 +411,14 @@ body.offcanvas {
   background-position: center center;
   background-repeat: no-repeat;
   position: relative; }
+
+.logo-img {
+    width: 220px;
+    height: 220px;
+    background-size: contain;
+    background-position: center center;
+    background-repeat: no-repeat;
+    position: relative; }
 
 .author-circle-img {
   background-size: cover;
