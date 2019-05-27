@@ -1,85 +1,122 @@
 {
   "selection": [
     {
+      "ligatures": "location, map-marker",
+      "name": "location",
+      "order": 21,
+      "prevSize": 32
+    },
+    {
+      "ligatures": "aid-kit, health",
+      "name": "aid-kit",
+      "order": 22,
+      "prevSize": 32
+    },
+    {
       "ligatures": "users, group",
       "name": "users",
-      "order": 3,
+      "order": 23,
       "prevSize": 32
     },
     {
       "ligatures": "briefcase, portfolio",
       "name": "briefcase",
-      "order": 8,
+      "order": 24,
       "prevSize": 32
     },
     {
       "ligatures": "accessibility",
       "name": "accessibility",
-      "order": 4,
+      "order": 25,
       "prevSize": 32
     },
     {
       "ligatures": "eye-minus, views3",
       "name": "eye-minus",
-      "order": 9,
+      "order": 26,
       "prevSize": 32
     },
     {
       "ligatures": "heart-broken, heart2",
       "name": "heart-broken",
-      "order": 6,
+      "order": 27,
       "prevSize": 32
     },
     {
       "ligatures": "man-woman, toilet",
       "name": "man-woman",
-      "order": 5,
+      "order": 28,
       "prevSize": 32
     },
     {
       "ligatures": "sad, emoticon7",
       "name": "sad",
-      "order": 10,
+      "order": 29,
       "prevSize": 32
     },
     {
       "ligatures": "frustrated, emoticon33",
       "name": "frustrated",
-      "order": 7,
+      "order": 30,
       "prevSize": 32
     },
     {
       "ligatures": "mail2, contact2",
       "name": "mail",
-      "order": 14,
+      "order": 31,
       "prevSize": 32
     },
     {
       "ligatures": "facebook2, brand11",
       "name": "facebook2",
-      "order": 12,
+      "order": 32,
       "prevSize": 32
     },
     {
       "ligatures": "instagram, brand12",
       "name": "instagram",
-      "order": 11,
+      "order": 33,
       "prevSize": 32
     },
     {
       "name": "whatsapp",
       "ligatures": "whatsapp, brand13",
-      "order": 13,
+      "order": 34,
       "prevSize": 32
     }
   ],
   "metadata": {
     "name": "default",
-    "iconsHash": 2060737261
+    "iconsHash": 2003816009
   },
   "height": 1024,
   "prevSize": 32,
   "icons": [
+    {
+      "paths": [
+        "M512 0c-176.732 0-320 143.268-320 320 0 320 320 704 320 704s320-384 320-704c0-176.732-143.27-320-320-320zM512 512c-106.040 0-192-85.96-192-192s85.96-192 192-192 192 85.96 192 192-85.96 192-192 192z"
+      ],
+      "tags": [
+        "location",
+        "map-marker",
+        "pin"
+      ],
+      "defaultCode": 59719,
+      "grid": 16
+    },
+    {
+      "paths": [
+        "M896 256h-192v-128c0-35.2-28.8-64-64-64h-256c-35.2 0-64 28.8-64 64v128h-192c-70.4 0-128 57.6-128 128v512c0 70.4 57.6 128 128 128h768c70.4 0 128-57.6 128-128v-512c0-70.4-57.6-128-128-128zM384 128h256v128h-256v-128zM768 704h-192v192h-128v-192h-192v-128h192v-192h128v192h192v128z"
+      ],
+      "tags": [
+        "aid-kit",
+        "health",
+        "medicine",
+        "medical"
+      ],
+      "defaultCode": 59800,
+      "grid": 16
+    },
     {
       "width": 1152,
       "paths": [

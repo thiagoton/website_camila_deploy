@@ -217,7 +217,7 @@ figure {
         display: inline;
         list-style: none; }
         #colorlib-aside .colorlib-footer ul li a {
-          color: rgba(255, 255, 255, 0.3);
+          color: rgba(0, 0, 0, 0.55);
           padding: 4px; }
           #colorlib-aside .colorlib-footer ul li a:hover, #colorlib-aside .colorlib-footer ul li a:active, #colorlib-aside .colorlib-footer ul li a:focus {
             text-decoration: none;
@@ -846,30 +846,30 @@ body.offcanvas {
   margin-bottom: 40px;
   position: relative; }
   .colorlib-feature .colorlib-icon {
-    position: absolute;
     top: 0;
-    left: 0;
-    width: 100px;
-    height: 100px;
+    width: 60px;
+    height: 60px;
+    margin-left: auto;
+    margin-right: auto;
     display: table;
     text-align: center;
     background: #f2f3f7;
-    -webkit-border-radius: 2px;
-    -moz-border-radius: 2px;
-    -ms-border-radius: 2px;
-    border-radius: 2px; }
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -ms-border-radius: 50%;
+    border-radius: 50%; }
     .colorlib-feature .colorlib-icon i {
       display: table-cell;
       vertical-align: middle;
-      color: #2c98f0;
-      font-size: 60px;
-      height: 100px; }
+      color: #7e7e7e;
+      font-size: 20px;
+      height: 100%; }
       @media screen and (max-width: 1200px) {
         .colorlib-feature .colorlib-icon i {
           font-size: 40px; } }
   .colorlib-feature .colorlib-text {
-    padding-left: 120px;
-    width: 100%; }
+    width: 100%;
+    margin-top: 70px; }
     .colorlib-feature .colorlib-text h2, .colorlib-feature .colorlib-text h3 {
       margin: 0;
       padding: 0; }
@@ -881,13 +881,17 @@ body.offcanvas {
       letter-spacing: 3px;
       text-transform: uppercase; }
   .colorlib-feature.colorlib-feature-sm .colorlib-text {
-    margin-top: 30px; }
+    text-align: center;
+    margin-top: 10px; }
   .colorlib-feature.colorlib-feature-sm .colorlib-icon i {
-    color: #2c98f0;
-    font-size: 40px; }
+    color: #7e7e7e;
+    font-size: 30px; }
     @media screen and (max-width: 1200px) {
       .colorlib-feature.colorlib-feature-sm .colorlib-icon i {
         font-size: 28px; } }
+  .colorlib-feature a, .colorlib-feature-sm a {
+    color: rgba(0, 0, 0, 0.7);
+  }
 
 .blog-entry {
   width: 100%;
