@@ -103,8 +103,8 @@ figure {
     -ms-border-radius: 50%;
     border-radius: 50%; }
   #colorlib-aside .logo-img {
-      width: 220px;
-      height: 220px;
+      width: 180px;
+      height: 180px;
       margin: 0 auto;
       margin-bottom: 30px;
       -webkit-border-radius: 0%;
@@ -1474,4 +1474,9 @@ body.offcanvas {
 
 .col-mgin-auto {
   margin: 0 auto;
+}
+
+.h1 .citation {
+  color: white;
+  font-size: 50px;
 }
