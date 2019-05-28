@@ -14,12 +14,12 @@
 body {
   font-family: "Quicksand", Arial, sans-serif;
   font-weight: 400;
-  font-size: 15px;
+  font-size: 16px;
   line-height: 1.8;
   color: rgba(0, 0, 0, 0.7); }
   @media screen and (max-width: 992px) {
     body {
-      font-size: 16px; } }
+      font-size: 20px; } }
 
 a {
   color: #2c98f0;
@@ -92,7 +92,7 @@ figure {
       -ms-transform: translateX(-300px);
       -o-transform: translateX(-300px);
       transform: translateX(-300px);
-      padding-top: 4em; } }
+      padding-top: 1em; } }
   #colorlib-aside .author-img {
     width: 150px;
     height: 150px;
@@ -144,10 +144,19 @@ figure {
         margin: 0 0 10px 0;
         padding: 0;
         list-style: none;
-        font-size: 12px;
+        font-size: 14px;
         font-weight: 500;
         text-transform: uppercase;
         letter-spacing: 1px; }
+        @media screen and (max-width: 768px) {
+          #colorlib-aside #colorlib-main-menu ul li {
+            margin: 0 0 10px 0;
+            padding: 0;
+            list-style: none;
+            font-size: 18px;
+            font-weight: 500;
+            text-transform: uppercase;
+            letter-spacing: 1px; } }
         #colorlib-aside #colorlib-main-menu ul li a {
           color: rgba(0, 0, 0, 0.7);
           text-decoration: none;
@@ -403,8 +412,8 @@ body.offcanvas {
     .colorlib-about,
     .colorlib-services,
     .colorlib-contact {
-      padding-top: 5em;
-      padding-bottom: 8em; } }
+      padding-top: 3em;
+      padding-bottom: 5em; } }
 
 .author-img {
   background-size: cover;
