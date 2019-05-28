@@ -85,19 +85,29 @@ Copyright &copy;<script>document.write(new Date().getFullYear());</script> All r
 			<section id="colorlib-hero" class="js-fullheight" data-section="home">
 				<div class="flexslider js-fullheight">
 					<ul class="slides">
-				   	<li style="background-image: url(images/img_bg_1.jpg);">
+				   	<li>
 				   		<div class="overlay"></div>
 				   		<div class="container-fluid">
 				   			<div class="row">
-					   			<div class="col-md-6 col-md-offset-3 col-md-pull-3 col-sm-12 col-xs-12 js-fullheight slider-text">
-					   				<div class="slider-text-inner js-fullheight">
-					   					<div class="desc">
-						   					<h1>Hi! <br>I'm Jackson</h1>
-						   					<h2>100% html5 bootstrap templates Made by <a href="https://colorlib.com/" target="_blank">colorlib.com</a></h2>
-												<p><a class="btn btn-primary btn-learn">Download CV <i class="icon-download4"></i></a></p>
+								<div class="col js-fullheight" style="display: flex; align-items: center; flex-wrap: wrap;">
+									<div class="col-mgin-auto col-md-5 col-md-push-7 slider-text">
+										<div class="slider-text-inner">
+											<div class="desc">
+												<img src="images/logo_only.png">	
 											</div>
-					   				</div>
-					   			</div>
+										</div>
+									</div>
+									<div class="col-mgin-auto col-md-7 col-md-pull-5 slider-text">
+											<div class="slider-text-inner">
+												<div class="desc">
+												<h1>Psicóloga<br>Camila Cuer</h1>
+												<h2>Atendimento para adolescentes e adultos</h2>
+												<h2>Terapia Cognitivo-Comportamental</h2>
+												<p><a href="#contact" class="btn btn-primary btn-learn">Agende sua consulta</a></p>
+											</div>
+										</div>
+									</div>
+								</div>
 					   		</div>
 				   		</div>
 				   	</li>
@@ -105,12 +115,12 @@ Copyright &copy;<script>document.write(new Date().getFullYear());</script> All r
 				   		<div class="overlay"></div>
 				   		<div class="container-fluid">
 				   			<div class="row">
-					   			<div class="col-md-6 col-md-offset-3 col-md-pull-3 col-sm-12 col-xs-12 js-fullheight slider-text">
+					   			<div class="col-md-6 col-md-offset-3 col-md-pull-3 col-sm-12 col-xs-12 js-fullheight slider-text" style="position: static;">
 					   				<div class="slider-text-inner">
 					   					<div class="desc">
 						   					<h1>I am <br>a Designer</h1>
-												<h2>100% html5 bootstrap templates Made by <a href="https://colorlib.com/" target="_blank">colorlib.com</a></h2>
-												<p><a class="btn btn-primary btn-learn">View Portfolio <i class="icon-briefcase3"></i></a></p>
+											<h2>100% html5 bootstrap templates Made by <a href="https://colorlib.com/" target="_blank">colorlib.com</a></h2>
+											<p><a class="btn btn-primary btn-learn">View Portfolio <i class="icon-briefcase3"></i></a></p>
 											</div>
 					   				</div>
 					   			</div>
@@ -204,6 +214,7 @@ Copyright &copy;<script>document.write(new Date().getFullYear());</script> All r
 							<div class="row row-bottom-padded-md animate-box" data-animate-effect="fadeInLeft">
 								<div class="col-md-12">
 									<div class="about-desc">
+										<span class="heading-meta">Preciso mesmo</span>
 										<h2 class="colorlib-heading">Preciso de psicólogo?</h2>
 										<p>Tudo bem, você ainda não está decidido se precisa de terapia ou não. Acha que com o tempo esse sentimento passa? Algum parente ou amigo disse que já passou por algo parecido e depois de um tempo ficou tudo bem?</p>
 										<p>Reflita um pouco mais: você está passando por alguma das situações a seguir:</p>
@@ -309,6 +320,7 @@ Copyright &copy;<script>document.write(new Date().getFullYear());</script> All r
 							<div class="row row-bottom-padded-md animate-box" data-animate-effect="fadeInLeft">
 								<div class="col-md-12">
 									<div class="about-desc">
+										<span class="heading-meta">Não é fraqueza</span>
 										<h2 class="colorlib-heading">Fazer terapia é ser forte</h2>
 										<p><strong>SIM</strong>, decidir fazer terapia é entender que todos temos problemas e que <strong>JUNTOS</strong> conseguimos resolver de forma mais fácil.</p>
 										<p>Sabendo que juntos somos mais fortes, me ofereço para <strong>junto</strong> com você procurar entender qual o seu problema, que tipo de sofrimento ele lhe causa e resolvê-lo.</p>
@@ -319,6 +331,7 @@ Copyright &copy;<script>document.write(new Date().getFullYear());</script> All r
 							<div class="row row-bottom-padded-md animate-box" data-animate-effect="fadeInLeft">
 								<div class="col-md-12">
 									<div class="about-desc">
+										<span class="heading-meta">Trabalho conjunto</span>
 										<h2 class="colorlib-heading">Você não está sozinho</h2>
 										<p>Você não está sozinho. Eu estou junto nessa com você. Você não será julgado. <strong>Quero ajudar</strong>. A terapia é para ser libertadora e não causar vergonha ou medo.</p> 
 										<p>Você terá toda a minha disposição para te ajudar e terá sua <strong>privacidade</strong> e <strong>individualidade</strong> respeitadas.</p>
@@ -336,13 +349,15 @@ Copyright &copy;<script>document.write(new Date().getFullYear());</script> All r
 				</div>
 			</section>
 
-			<section class="colorlib-contact" data-section="contact">
+			<section class="colorlib-contact" data-section="contact" id="contact">
 				<div class="colorlib-narrow-content">
 					<div class="row">
-						<div class="col animate-box" data-animate-effect="fadeInLeft">
-							<span class="heading-meta">Fale comigo</span>
-							<h2 class="colorlib-heading">Contato</h2>
-							<p>Ficou alguma dúvida ou gostaria de agendar a sua consulta? Entre em contato.</p>
+						<div class="col-md">
+							<div class="col animate-box" data-animate-effect="fadeInLeft">
+								<span class="heading-meta">Fale comigo</span>
+								<h2 class="colorlib-heading">Contato</h2>
+								<p>Ficou alguma dúvida ou gostaria de agendar a sua consulta? Entre em contato.</p>
+							</div>
 						</div>
 					</div>
 					<div class="row">
@@ -362,7 +377,7 @@ Copyright &copy;<script>document.write(new Date().getFullYear());</script> All r
 									<i class="icon-whatsapp"></i>
 								</div>
 								<div class="colorlib-text">
-									<h4><a href="https://wa.me/5541998996694" target="_blank">(41) 99899-6694</a></h4>
+									<h4><a href="tel:41998996694" target="_blank">(41) 99899-6694</a></h4>
 								</div>
 							</div>
 						</div>
@@ -384,7 +399,7 @@ Copyright &copy;<script>document.write(new Date().getFullYear());</script> All r
 									<i class="icon-facebook2"></i>
 								</div>
 								<div class="colorlib-text">
-									<h4><a href="https://www.facebook.com/psicologa.camilacuer/" target="_blank">psicologa.camilacuer@gmail.com</a></h4>
+									<h4><a href="https://www.facebook.com/psicologa.camilacuer/" target="_blank">Facebook<br>psicologa.camilacuer</a></h4>
 								</div>
 							</div>
 						</div>
@@ -394,7 +409,7 @@ Copyright &copy;<script>document.write(new Date().getFullYear());</script> All r
 									<i class="icon-instagram"></i>
 								</div>
 								<div class="colorlib-text">
-									<h4><a href="https:www.instagram.com/psicologia.camilacuer" target="_blank">(41) 99899-6694</a></h4>
+									<h4><a href="https:www.instagram.com/psicologia.camilacuer" target="_blank">Instagram<br>@psicologia.camilacuer</a></h4>
 								</div>
 							</div>
 						</div>

@@ -1462,3 +1462,7 @@ body.offcanvas {
 
 .js .animate-box {
   opacity: 0; }
+
+.col-mgin-auto {
+  margin: 0 auto;
+}
