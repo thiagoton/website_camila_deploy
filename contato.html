@@ -21,14 +21,41 @@
     gtag('config', 'UA-141073926-1');
   </script>
 
+  <!-- Global site tag (gtag.js) - Google Ads: 738740735 -->
+  <script async src="https://www.googletagmanager.com/gtag/js?id=AW-738740735"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+
+    gtag('config', 'AW-738740735');
+  </script>
+
+  <!-- Event snippet for Contato Whatsapp conversion page
+  In your html page, add the snippet and call gtag_report_conversion when someone clicks on the chosen link or button. -->
+  <script>
+    function gtag_report_conversion(url) {
+      var callback = function () {
+        if (typeof(url) != 'undefined') {
+          window.location = url;
+        }
+      };
+      gtag('event', 'conversion', {
+          'send_to': 'AW-738740735/Q1MXCLP30MkBEP-ToeAC',
+          'event_callback': callback
+      });
+      return false;
+    }
+  </script>
+
   <!-- Social stuff -->
   <meta property="og:title" content="Psicóloga Camila Cuer"/>
-  <meta property="og:image" content="http://0.0.0.0:4000/images/logo_only.jpg"/>
-  <meta property="og:url" content="http://0.0.0.0:4000"/>
+  <meta property="og:image" content="https://psicologacamilacuer.com.br/images/logo_only.jpg"/>
+  <meta property="og:url" content="https://psicologacamilacuer.com.br"/>
   <meta property="og:description" content="Psicóloga Clínica em Curitiba-PR. Contato: (41) 99899-6694 | Terapia Cognitivo-Comportamental | Terapia Individual | Adolescentes e Adultos"/>
   <meta name="twitter:title" content="Psicóloga Camila Cuer" />
-  <meta name="twitter:image" content="http://0.0.0.0:4000/images/logo_only.jpg" />
-  <meta name="twitter:url" content="http://0.0.0.0:4000" />
+  <meta name="twitter:image" content="https://psicologacamilacuer.com.br/images/logo_only.jpg" />
+  <meta name="twitter:url" content="https://psicologacamilacuer.com.br" />
   <meta name="twitter:card" content="summary" />
   <meta name="twitter:description" content="Psicóloga Clínica em Curitiba-PR. Contato: (41) 99899-6694 | Terapia Cognitivo-Comportamental | Terapia Individual | Adolescentes e Adultos"/>
 
@@ -49,7 +76,7 @@
   <link rel="stylesheet" href="css/aos.css">
   <link rel="stylesheet" href="css/icomoon.css">
   <!-- <link rel="stylesheet" href=" /css/animate.css"> -->
-  <link rel="canonical" href="http://0.0.0.0:4000/contato.html">
+  <link rel="canonical" href="https://psicologacamilacuer.com.br/contato.html">
 </head>
 
 
@@ -85,7 +112,7 @@
     </div>
 </nav>
 
-    <a href="https://api.whatsapp.com/send?phone=5541998996694&text=Olá! Visitei o seu site e gostaria de mais informações sobre a psicoterapia."
+    <a onclick="gtag_report_conversion()" href="https://api.whatsapp.com/send?phone=5541998996694&text=Olá! Visitei o seu site e gostaria de mais informações sobre a psicoterapia."
   class="float-icon" target="_blank">
   <i class="fa fa-whatsapp float-icon-link"></i>
 </a>
@@ -191,6 +218,11 @@
         </div>
     </div>
 </div>
+<!-- Event snippet for Visualização de página conversion page -->
+<script>
+gtag('event', 'conversion', { 'send_to': 'AW-738740735/fT_jCJ_vt8kBEP-ToeAC' });
+</script>
+  
     </div>
 
     <!-- Footer Section -->
